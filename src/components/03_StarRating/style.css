@@ -1,0 +1,14 @@
+.star-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 48px;
+}
+.active {
+  color: gold;
+}
+.inactive {
+  color: aliceblue;
+}
