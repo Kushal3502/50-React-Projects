@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.arrow {
+  font-size: 35px;
+  cursor: pointer;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 550px;
+  overflow: hidden;
+}
+img {
+  height: 450px;
+  width: 550px;
+}
+img.hide {
+  display: none;
+}
+.dots-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.dot {
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.dot.hide {
+  background-color: lightslategray;
+}
