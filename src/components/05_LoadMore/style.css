@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  padding: 40px;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.product {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.product img {
+  width: 250px;
+  height: 250px;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+.message{
+    font-size: 25px;
+}
