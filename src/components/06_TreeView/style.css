@@ -1,0 +1,10 @@
+.treeview-container {
+  width: 100vw;
+  height: 100%;
+  padding: 25px;
+}
+.item {
+  display: flex;
+  gap: 10px;
+  font-size: 25px;
+}
