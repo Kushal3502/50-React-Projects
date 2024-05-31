@@ -7,6 +7,7 @@ import LoadMore from "./components/05_LoadMore/LoadMore";
 import Tree from "./components/06_TreeView/Tree";
 import menus from "./components/06_TreeView/data";
 import QrGenerator from "./components/07_QrGenerator/QrGenerator";
+import Theme from "./components/08_ThemeChanger/Theme";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Slider page={2} limit={10} /> */}
       {/* <LoadMore /> */}
       {/* <Tree menu={menus} /> */}
-      <QrGenerator />
+      {/* <QrGenerator /> */}
+      <Theme />
     </>
   );
 }

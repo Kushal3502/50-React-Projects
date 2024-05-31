@@ -1,0 +1,33 @@
+:root {
+  --background: #212121;
+  --text: white;
+  --button-bg: white;
+  --button-text: #212121;
+}
+[data-theme="light"] {
+  --background: white;
+  --text: #212121;
+  --button-bg: #212121;
+  --button-text: white;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.theme-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+p {
+  font-size: 45px;
+  color: var(--text);
+}
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+}
