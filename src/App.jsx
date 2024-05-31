@@ -6,6 +6,7 @@ import Slider from "./components/04_ImageSlider/Slider";
 import LoadMore from "./components/05_LoadMore/LoadMore";
 import Tree from "./components/06_TreeView/Tree";
 import menus from "./components/06_TreeView/data";
+import QrGenerator from "./components/07_QrGenerator/QrGenerator";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <StarRating /> */}
       {/* <Slider page={2} limit={10} /> */}
       {/* <LoadMore /> */}
-      <Tree menu={menus} />
+      {/* <Tree menu={menus} /> */}
+      <QrGenerator />
     </>
   );
 }

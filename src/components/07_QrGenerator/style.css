@@ -1,0 +1,15 @@
+.container {
+  height: 100%;
+  width: 100vw;
+}
+h1 {
+  margin-top: 45px;
+}
+.input-box {
+  display: flex;
+  gap: 15px;
+}
+input {
+  font-size: 25px;
+  padding: 25px;
+}
