@@ -1,0 +1,54 @@
+button {
+  background-color: gold;
+  color: black;
+}
+.pop-up {
+  position: fixed;
+  z-index: 1;
+  width: 80%;
+  height: 70%;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gold;
+  text-align: center;
+}
+.header {
+  background-color: gold;
+  color: #212121;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 30px;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.body {
+  color: aliceblue;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 30px;
+}
+.footer {
+  background-color: gold;
+  color: #212121;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-size: 30px;
+}

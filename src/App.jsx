@@ -10,6 +10,7 @@ import QrGenerator from "./components/07_QrGenerator/QrGenerator";
 import Theme from "./components/08_ThemeChanger/Theme";
 import Scroll from "./components/09_ScrollIndicator/Scroll";
 import TabTest from "./components/10_Tabs/TabTest";
+import Modal from "./components/11_CustomModal/Modal";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <QrGenerator /> */}
       {/* <Theme /> */}
       {/* <Scroll url={"https://dummyjson.com/products"} limit={100} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      <Modal />
     </>
   );
 }
