@@ -1,0 +1,32 @@
+.container {
+  background-color: #212121;
+  color: white;
+  height: 100%;
+  padding: 0;
+}
+.top-container {
+  background-color: gold;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+h1 {
+  color: #212121;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.progress-container {
+  height: 20px;
+  background-color: #2e2b2b;
+}
+.progress-bar {
+  background-color: goldenrod;
+  height: 100%;
+  width: 30%;
+}
+.products-container {
+  margin-top: 140px;
+}
+li {
+  font-size: 30px;
+}
