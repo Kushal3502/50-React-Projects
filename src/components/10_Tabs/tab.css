@@ -1,0 +1,19 @@
+.container {
+  height: 100vh;
+}
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 40px;
+  border: 1px solid gold;
+}
+.tab {
+  padding: 15px;
+  cursor: pointer;
+}
+.tab.active {
+  background-color: gold;
+  color: black;
+}
