@@ -11,6 +11,7 @@ import Theme from "./components/08_ThemeChanger/Theme";
 import Scroll from "./components/09_ScrollIndicator/Scroll";
 import TabTest from "./components/10_Tabs/TabTest";
 import Modal from "./components/11_CustomModal/Modal";
+import GitHub from "./components/12_GitHubProfileFinder/GitHub";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <Theme /> */}
       {/* <Scroll url={"https://dummyjson.com/products"} limit={100} /> */}
       {/* <TabTest /> */}
-      <Modal />
+      {/* <Modal /> */}
+      <GitHub />
     </>
   );
 }
