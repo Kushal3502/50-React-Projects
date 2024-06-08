@@ -13,6 +13,7 @@ import TabTest from "./components/10_Tabs/TabTest";
 import Modal from "./components/11_CustomModal/Modal";
 import GitHub from "./components/12_GitHubProfileFinder/GitHub";
 import SearchAutoComplete from "./components/13_SearchAutocomplete/SearchAutoComplete";
+import TicTacToe from "./components/14_TicTacToe/TicTacToe";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <TabTest /> */}
       {/* <Modal /> */}
       {/* <GitHub /> */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+      <TicTacToe />
     </>
   );
 }
