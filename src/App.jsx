@@ -14,6 +14,9 @@ import Modal from "./components/11_CustomModal/Modal";
 import GitHub from "./components/12_GitHubProfileFinder/GitHub";
 import SearchAutoComplete from "./components/13_SearchAutocomplete/SearchAutoComplete";
 import TicTacToe from "./components/14_TicTacToe/TicTacToe";
+import UseFetchHook from "./components/16_UseFetch/useFetchHook";
+import UseOnClick from "./components/17_UseOnClick/UseOnClick";
+import Weather from "./components/21_WeatherApp/Weather";
 
 function App() {
   return (
@@ -31,7 +34,10 @@ function App() {
       {/* <Modal /> */}
       {/* <GitHub /> */}
       {/* <SearchAutoComplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      {/* <UseFetchHook /> */}
+      {/* <UseOnClick /> */}
+      <Weather />
     </>
   );
 }
